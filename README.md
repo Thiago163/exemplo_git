@@ -1,4 +1,4 @@
-# exemplo_git
+# exemplo_git // git pull = "atualizar"
 echo "# exemplo_git" >> README.md
 git init
 git add README.md
