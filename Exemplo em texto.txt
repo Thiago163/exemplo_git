@@ -25,3 +25,7 @@ ________________________________________________________________________________
 
 git config --global user.email "thiagosilvadacruz163@gmail.com"
 git config --global user.name "mistickesterio"
+
+________________________________________________________________________________________________________________
+
+Git clone https://github.com/mistickesterio/exemplo_git.git
