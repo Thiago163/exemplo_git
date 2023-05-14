@@ -51,4 +51,47 @@ Para verificar a versão do Git instalada em sua máquina, execute o seguinte co
 
 - git --version
 
+## Visualizando histórico de alterações
+Para visualizar o histórico de alterações do repositório, execute o seguinte comando:
+
+- git log
+
+## Ramificação de código
+Para criar uma nova ramificação de código, execute o seguinte comando:
+
+- git branch <nome_da_ramificação>
+
+## Para alternar para uma ramificação existente, execute o seguinte comando:
+
+- git checkout <nome_da_ramificação>
+
+## Mesclando ramificações
+Para mesclar uma ramificação ao código principal, execute o seguinte comando:
+
+- git merge <nome_da_ramificação>
+
+## Ignorando arquivos
+Para ignorar arquivos que não devem ser adicionados ao repositório, crie um arquivo chamado .gitignore e adicione os nomes dos arquivos a serem ignorados.
+
+## Removendo arquivos do repositório
+Para remover arquivos do repositório, execute o seguinte comando:
+
+- git rm <nome_do_arquivo>
+
+## Desfazendo alterações
+Para desfazer as alterações feitas em um arquivo, execute o seguinte comando:
+
+-git checkout <nome_do_arquivo>
+
+## Desfazendo commits
+Para desfazer um commit, execute o seguinte comando:
+
+-git revert <hash_do_commit>
+
+## Desfazendo commits localmente
+
+Para desfazer um commit localmente, execute o seguinte comando:
+
+- git reset HEAD~1
+
 Lembre-se de que a ordem e a necessidade de cada comando podem variar dependendo da situação em que você se encontra no uso do Git.
