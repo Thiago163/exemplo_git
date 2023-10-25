@@ -94,4 +94,28 @@ Para desfazer um commit localmente, execute o seguinte comando:
 
 - git reset HEAD~1
 
+## fazendo tags
+
+git tag v1.0.0 -m"entrega"
+
+git tag -n
+
+git push origin entrega
+
+## conectando no repositório sem precisar baixar
+
+- git remote add origin https://github.com/mistickesterio/exemplo_git.git
+- 
+- git branch -M main
+- 
+- git push -u origin main
+
+## gerenciando tags
+
+git tag -a v1.0.0 -m "Versão 1.0.0 - Entrega inicial" <hash_do_commit>
+
+git tag -n
+
+git push origin v1.0.0
+
 Lembre-se de que a ordem e a necessidade de cada comando podem variar dependendo da situação em que você se encontra no uso do Git.
